@@ -19,9 +19,9 @@ img = document.getElementById("second");
 //alert(y1);
 
 // Create gradient
-var grd = ctx.createLinearGradient(0,0,200,800);
+var grd = ctx.createLinearGradient(0,0,200,1000);
 grd.addColorStop(0,"blue");
-grd.addColorStop(1,"red");
+grd.addColorStop(1,"blue");
 
 // Fill with gradient
 ctx.fillStyle = grd;
