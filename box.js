@@ -21,7 +21,7 @@ img = document.getElementById("second");
 // Create gradient
 var grd = ctx.createLinearGradient(0,0,200,1000);
 grd.addColorStop(0,"blue");
-grd.addColorStop(1,"violet");
+grd.addColorStop(1,"blue");
 
 // Fill with gradient
 ctx.fillStyle = grd;
