@@ -29,10 +29,6 @@ ctx.fillRect(x1,y1,25,25);
 
 
 };
-document.body.style.zoom = 0.8;
-document.body.style.transform = 'scale(' + window.screen.availHeight/2 + ')';
-document.body.style['-o-transform'] = 'scale(' + window.screen.availHeight/2 + ')';
-document.body.style['-webkit-transform'] = 'scale(' + window.screen.availHeight/2 + ')';
-document.body.style['-moz-transform'] = 'scale(' + window.screen.availHeight/2 + ')';
+
 
 
