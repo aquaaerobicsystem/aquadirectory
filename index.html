@@ -2,7 +2,11 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script>
-    document.body.style.zoom = "80%";
+    document.body.style.zoom = 0.8;
+document.body.style.transform = 'scale(' + window.screen.availHeight/2 + ')';
+document.body.style['-o-transform'] = 'scale(' + window.screen.availHeight/2 + ')';
+document.body.style['-webkit-transform'] = 'scale(' + window.screen.availHeight/2 + ')';
+document.body.style['-moz-transform'] = 'scale(' + window.screen.availHeight/2 + ')';
   </script>
 </head>
 <body bgcolor="#fff">
