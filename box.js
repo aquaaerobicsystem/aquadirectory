@@ -24,7 +24,7 @@ var grd = ctx.createLinearGradient(0,0,200,1000);
 grd.addColorStop(0,"blue");
 grd.addColorStop(1,"blue");
 
-Switch(office)
+switch(office)
 {
     case 104:
         // Fill with gradient
