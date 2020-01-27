@@ -24,10 +24,18 @@ var grd = ctx.createLinearGradient(0,0,200,1000);
 grd.addColorStop(0,"blue");
 grd.addColorStop(1,"blue");
 
-// Fill with gradient
-ctx.fillStyle = grd;
-ctx.fillRect(x1,y1,25,25);
-
+Switch(office)
+{
+    case 104:
+        // Fill with gradient
+        ctx.fillStyle = grd;
+        ctx.fillRect(x1,y1,25,25);
+        break;
+    default:
+        // Fill with gradient
+        ctx.fillStyle = grd;
+        ctx.fillRect(x1,y1,25,25);
+}
 
 };
 
