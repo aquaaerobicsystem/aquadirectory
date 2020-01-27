@@ -32,11 +32,10 @@ Switch(office)
         ctx.fillRect(x1,y1,25,25);
         break;
     default:
-        // Fill with gradient
+}
+// Fill with gradient
         ctx.fillStyle = grd;
         ctx.fillRect(x1,y1,25,25);
-}
-
 };
 
 
