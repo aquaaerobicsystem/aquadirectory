@@ -29,7 +29,6 @@ grd.addColorStop(1,"blue");
 ctx.fillStyle = grd;
 ctx.fillRect(x1,y1,25,25);
 }else{
-alert(cube);
 switch(cube){
 case "104":
 x2=379;
