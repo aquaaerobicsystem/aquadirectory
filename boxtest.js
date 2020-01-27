@@ -28,6 +28,7 @@ grd.addColorStop(1,"blue");
 ctx.fillStyle = grd;
 ctx.fillRect(x1,y1,25,25);
 }else{
+    alert(office);
     switch(office){
         case 104:
           var grd = ctx.createLinearGradient(0,0,200,1000);
