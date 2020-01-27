@@ -18,7 +18,7 @@ img = document.getElementById("second");
 
 //alert(x1);
 //alert(y1);
-if (office == null){
+if (cube == null){
 // Create gradient
 var grd = ctx.createLinearGradient(0,0,200,1000);
 grd.addColorStop(0,"blue");
