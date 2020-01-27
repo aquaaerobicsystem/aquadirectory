@@ -18,7 +18,6 @@ img = document.getElementById("second");
 
 //alert(x1);
 //alert(y1);
-alert(office);
 if (office == null){
 // Create gradient
 var grd = ctx.createLinearGradient(0,0,200,1000);
@@ -28,17 +27,19 @@ grd.addColorStop(1,"blue");
 ctx.fillStyle = grd;
 ctx.fillRect(x1,y1,25,25);
 }else{
-    alert(office);
-    switch(office){
-        case 104:
-          var grd = ctx.createLinearGradient(0,0,200,1000);
-          grd.addColorStop(0,"blue");
-          grd.addColorStop(1,"blue");
-          ctx.fillStyle = grd;
-          ctx.fillRect(379,76,25,25);
-          break;
-        default:
-    }
+alert(office);
+switch(office){
+case 104:
+x1=379;
+y1=79;
+break;
+default:
+}
+var grd = ctx.createLinearGradient(0,0,200,1000);
+grd.addColorStop(0,"blue");
+grd.addColorStop(1,"blue");
+ctx.fillStyle = grd;
+ctx.fillRect(x1,y1,25,25);
 }
 };
 
