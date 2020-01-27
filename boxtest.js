@@ -31,7 +31,7 @@ ctx.fillRect(x1,y1,25,25);
 }else{
 alert(cube);
 switch(cube){
-case 104:
+case "104":
 x2=379;
 y2=79;
 break;
