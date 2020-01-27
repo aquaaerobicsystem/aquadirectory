@@ -30,13 +30,30 @@ ctx.fillStyle = grd;
 ctx.fillRect(x1,y1,25,25);
 }else{
 switch(cube){
+//cube 
 case "104":
 x2=379;
 y2=79;
 break;
+//cube
 case "118":
 x2=569;
 y2=107;
+break;
+//cube 
+case "1":
+x2=379;
+y2=79;
+break;
+//cube 
+case "2":
+x2=379;
+y2=79;
+break;
+//cube 
+case "2":
+x2=379;
+y2=79;
 break;
 }
 var grd = ctx.createLinearGradient(0,0,200,1000);
