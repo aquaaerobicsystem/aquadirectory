@@ -19,21 +19,24 @@ img = document.getElementById("second");
 //alert(x1);
 //alert(y1);
 
+if (office == null){
 // Create gradient
 var grd = ctx.createLinearGradient(0,0,200,1000);
 grd.addColorStop(0,"blue");
 grd.addColorStop(1,"blue");
-
-if (office == null){
    // Fill with gradient
-    ctx.fillStyle = grd;
-    ctx.fillRect(x1,y1,25,25);
+ctx.fillStyle = grd;
+ctx.fillRect(x1,y1,25,25);
 }else{
     switch(office){
         case 104:
+          var grd = ctx.createLinearGradient(0,0,200,1000);
+          grd.addColorStop(0,"blue");
+          grd.addColorStop(1,"blue");
           ctx.fillStyle = grd;
           ctx.fillRect(379,76,25,25);
           break;
+        default:
     }
 }
 };
