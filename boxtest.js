@@ -28,7 +28,7 @@ ctx.fillStyle = grd;
 ctx.fillRect(x1,y1,25,25);
 }else{
 alert(office);
-switch(office){
+switch(Number(office)){
 case 104:
 x1=379;
 y1=79;
