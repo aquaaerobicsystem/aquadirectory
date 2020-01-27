@@ -30,8 +30,10 @@ if (office == null){
     ctx.fillRect(x1,y1,25,25);
 }else{
     switch(office){
-        case 0:
-        break;
+        case 104:
+          ctx.fillStyle = grd;
+          ctx.fillRect(379,76,25,25);
+          break;
     }
 }
 };
