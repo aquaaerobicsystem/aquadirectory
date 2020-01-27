@@ -18,7 +18,7 @@ img = document.getElementById("second");
 
 //alert(x1);
 //alert(y1);
-
+alert(office);
 if (office == null){
 // Create gradient
 var grd = ctx.createLinearGradient(0,0,200,1000);
