@@ -1,5 +1,7 @@
 window.onload = function() {
 const params = new URLSearchParams(window.location.href);
+var x2 = 0;
+var y2 = 0;
 const x1 = params.get("width");
 const y1 = params.get("height");
 const f = params.get("floor");
@@ -30,8 +32,8 @@ ctx.fillRect(x1,y1,25,25);
 alert(cube);
 switch(cube){
 case 104:
-x1=379;
-y1=79;
+x2=379;
+y2=79;
 break;
 default:
 }
@@ -39,7 +41,7 @@ var grd = ctx.createLinearGradient(0,0,200,1000);
 grd.addColorStop(0,"blue");
 grd.addColorStop(1,"blue");
 ctx.fillStyle = grd;
-ctx.fillRect(x1,y1,25,25);
+ctx.fillRect(x2,y2,25,25);
 }
 };
 
