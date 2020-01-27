@@ -28,7 +28,9 @@ ctx.fillStyle = grd;
 ctx.fillRect(x1,y1,25,25);
 }else{
 alert(office);
-switch(Number(office)){
+var cube = Number(office);
+alert(cube);
+switch(cube){
 case 104:
 x1=379;
 y1=79;
