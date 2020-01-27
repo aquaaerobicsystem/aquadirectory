@@ -3,7 +3,7 @@ const params = new URLSearchParams(window.location.href);
 const x1 = params.get("width");
 const y1 = params.get("height");
 const f = params.get("floor");
-const office = params.get("office");
+//const office = params.get("office");
 var img;
 if (f === "first"){
 img = document.getElementById("first");
@@ -24,18 +24,9 @@ var grd = ctx.createLinearGradient(0,0,200,1000);
 grd.addColorStop(0,"blue");
 grd.addColorStop(1,"blue");
 
-switch(office)
-{
-    case 104:
-        // Fill with gradient
-        ctx.fillStyle = grd;
-        ctx.fillRect(x1,y1,25,25);
-        break;
-    default:
-}
 // Fill with gradient
-        ctx.fillStyle = grd;
-        ctx.fillRect(x1,y1,25,25);
+ctx.fillStyle = grd;
+ctx.fillRect(x1,y1,25,25);
 };
 
 
