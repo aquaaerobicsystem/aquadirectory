@@ -35,7 +35,6 @@ case "104":
 x2=379;
 y2=79;
 break;
-default:
 }
 var grd = ctx.createLinearGradient(0,0,200,1000);
 grd.addColorStop(0,"blue");
