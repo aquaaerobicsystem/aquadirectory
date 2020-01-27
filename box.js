@@ -3,6 +3,7 @@ const params = new URLSearchParams(window.location.href);
 const x1 = params.get("width");
 const y1 = params.get("height");
 const f = params.get("floor");
+const office = params.get("office");
 var img;
 if (f === "first"){
 img = document.getElementById("first");
