@@ -3,7 +3,7 @@ const params = new URLSearchParams(window.location.href);
 const x1 = params.get("width");
 const y1 = params.get("height");
 const f = params.get("floor");
-var cube = params.get("office");
+var cube = params.get("offices");
 var img;
 if (f === "first"){
 img = document.getElementById("first");
@@ -29,7 +29,7 @@ ctx.fillRect(x1,y1,25,25);
 }else{
 alert(cube);
 switch(cube){
-case "104":
+case 104:
 x1=379;
 y1=79;
 break;
