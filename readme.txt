@@ -9,5 +9,9 @@ Your profile has been updated. You will have to close
 1.	Close all you web browsers 
 2.	Double click on AquaLocator shortcut located on your desktop
 
+How to update:
+
+See https://github.com/chukon/ReactApps
+
 Chuck 
 
