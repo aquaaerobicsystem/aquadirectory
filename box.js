@@ -12,13 +12,11 @@ img = document.getElementById("first");
 if (f === "second"){
 img = document.getElementById("second");
 }
+    
+// Create canvas
     var canvas = document.getElementById("myCanvas");
     var ctx = canvas.getContext("2d");
-   ctx.drawImage(img, 0, 0);
-
-
-//alert(x1);
-//alert(y1);
+   //ctx.drawImage(img, 0, 0);
 
 // Create gradient
 var grd = ctx.createLinearGradient(0,0,200,1000);
@@ -34,6 +32,7 @@ if (cube != null)
     cubicle(cube);
 }else{
     // Fill with gradient
+ctx.drawImage(img, 0, 0);
 ctx.fillStyle = grd;
 ctx.fillRect(x1,y1,25,25);
     
@@ -44,6 +43,7 @@ function cubicle(n)
         switch (n) {
   case 1:
    // Fill with gradient
+     ctx.drawImage(img, 0, 0);
     ctx.fillStyle = grd;
     ctx.fillRect(188,23,25,25);
     break;
@@ -51,6 +51,7 @@ function cubicle(n)
     text = "On";
     break;
   default:
+     ctx.drawImage(img, 0, 0);
     ctx.fillStyle = grd;
     ctx.fillRect(x1,y1,25,25);
 }
