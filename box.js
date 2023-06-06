@@ -536,43 +536,43 @@ window.onload = function () {
                 break;
             case "76":
                 console.log("selected");
-                x1 = 550;
-                y1 = 146;
+                x1 = 707;
+                y1 = 332;
                 f = "first";
                 img = document.getElementById("first");
                 break;
             case "77":
                 console.log("selected");
-                x1 = 580;
-                y1 = 146;
+                x1 = 707;
+                y1 = 362;
                 f = "first";
                 img = document.getElementById("first");
                 break;
             case "78":
                 console.log("selected");
-                x1 = 615;
-                y1 = 146;
+                x1 = 707;
+                y1 = 392;
                 f = "first";
                 img = document.getElementById("first");
                 break;
             case "79":
                 console.log("selected");
-                x1 = 646;
-                y1 = 146;
+                x1 = 495;
+                y1 = 440;
                 f = "first";
                 img = document.getElementById("first");
                 break;
             case "80":
                 console.log("selected");
-                x1 = 646;
-                y1 = 146;
+                x1 = 530;
+                y1 = 440;
                 f = "first";
                 img = document.getElementById("first");
                 break;
             case "81":
                 console.log("selected");
-                x1 = 646;
-                y1 = 146;
+                x1 = 568;
+                y1 = 440;
                 f = "first";
                 img = document.getElementById("first");
                 break;
