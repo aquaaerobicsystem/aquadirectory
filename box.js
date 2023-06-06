@@ -51,7 +51,7 @@ window.onload = function () {
                 f = "first";
                 img = document.getElementById("first");
                 break;
-            case "6":
+            case "7":
                 console.log("selected");
                 x1 = 505;
                 y1 = 23;
