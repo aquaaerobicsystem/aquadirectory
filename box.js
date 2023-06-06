@@ -291,36 +291,29 @@ window.onload = function () {
                 break;
             case "41":
                 console.log("selected");
-                x1 = 646;
-                y1 = 146;
+                x1 = 718;
+                y1 = 87;
                 f = "first";
                 img = document.getElementById("first");
                 break;
             case "42":
                 console.log("selected");
-                x1 = 646;
-                y1 = 146;
-                f = "first";
-                img = document.getElementById("first");
-                break;
-                        case "1":
-                console.log("selected");
-                x1 = 188;
-                y1 = 23;
+                x1 = 747;
+                y1 = 87;
                 f = "first";
                 img = document.getElementById("first");
                 break;
             case "43":
                 console.log("selected");
-                x1 = 237;
-                y1 = 23;
+                x1 = 718;
+                y1 = 145;
                 f = "first";
                 img = document.getElementById("first");
                 break;
             case "44":
                 console.log("selected");
-                x1 = 280;
-                y1 = 23;
+                x1 = 747;
+                y1 = 145;
                 f = "first";
                 img = document.getElementById("first");
                 break;
