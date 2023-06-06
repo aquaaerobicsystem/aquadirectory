@@ -89,7 +89,7 @@ window.onload = function () {
             case "12":
                 console.log("selected");
                 x1 = 682;
-                y1 = 23;
+                y1 = 85;
                 f = "first";
                 img = document.getElementById("first");
                 break;
@@ -102,7 +102,7 @@ window.onload = function () {
                 break;
             case "14":
                 console.log("selected");
-                x1 = 188;
+                x1 = 262;
                 y1 = 23;
                 f = "first";
                 img = document.getElementById("first");
