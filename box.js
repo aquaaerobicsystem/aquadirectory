@@ -67,35 +67,35 @@ window.onload = function () {
                 break;
             case "9":
                 console.log("selected");
-                x1 = 188;
+                x1 = 582;
                 y1 = 23;
                 f = "first";
                 img = document.getElementById("first");
                 break;
             case "10":
                 console.log("selected");
-                x1 = 188;
+                x1 = 615;
                 y1 = 23;
                 f = "first";
                 img = document.getElementById("first");
                 break;
             case "11":
                 console.log("selected");
-                x1 = 188;
+                x1 = 648;
                 y1 = 23;
                 f = "first";
                 img = document.getElementById("first");
                 break;
             case "12":
                 console.log("selected");
-                x1 = 188;
+                x1 = 682;
                 y1 = 23;
                 f = "first";
                 img = document.getElementById("first");
                 break;
             case "13":
                 console.log("selected");
-                x1 = 188;
+                x1 = 714;
                 y1 = 23;
                 f = "first";
                 img = document.getElementById("first");
