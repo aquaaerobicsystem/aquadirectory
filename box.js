@@ -25,28 +25,28 @@ window.onload = function () {
                 break;
             case "3":
                 console.log("selected");
-                x1 = 188;
+                x1 = 286;
                 y1 = 23;
                 f = "first";
                 img = document.getElementById("first");
                 break;
             case "4":
                 console.log("selected");
-                x1 = 188;
+                x1 = 335;
                 y1 = 23;
                 f = "first";
                 img = document.getElementById("first");
                 break;
             case "5":
                 console.log("selected");
-                x1 = 188;
+                x1 = 384;
                 y1 = 23;
                 f = "first";
                 img = document.getElementById("first");
                 break;
             case "6":
                 console.log("selected");
-                x1 = 188;
+                x1 = 433;
                 y1 = 23;
                 f = "first";
                 img = document.getElementById("first");
