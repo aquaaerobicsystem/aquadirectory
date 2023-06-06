@@ -417,15 +417,15 @@ window.onload = function () {
                 break;
             case "59":
                 console.log("selected");
-                x1 = 399;
-                y1 = 85;
+                x1 = 445;
+                y1 = 331;
                 f = "first";
                 img = document.getElementById("first");
                 break;
             case "60":
                 console.log("selected");
-                x1 = 427;
-                y1 = 85;
+                x1 = 445;
+                y1 = 362;
                 f = "first";
                 img = document.getElementById("first");
                 break;
