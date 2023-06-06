@@ -578,98 +578,98 @@ window.onload = function () {
                 break;
              case "82":
                 console.log("selected");
-                x1 = 188;
+                x1 = 220;
                 y1 = 23;
                 f = "first";
                 img = document.getElementById("first");
                 break;
             case "83":
                 console.log("selected");
-                x1 = 237;
+                x1 = 265;
                 y1 = 23;
                 f = "first";
                 img = document.getElementById("first");
                 break;
             case "84":
                 console.log("selected");
-                x1 = 280;
+                x1 = 297;
                 y1 = 23;
                 f = "first";
                 img = document.getElementById("first");
                 break;
             case "85":
                 console.log("selected");
-                x1 = 313;
+                x1 = 395;
                 y1 = 23;
                 f = "first";
                 img = document.getElementById("first");
                 break;
             case "86":
                 console.log("selected");
-                x1 = 346;
+                x1 = 426;
                 y1 = 23;
                 f = "first";
                 img = document.getElementById("first");
                 break;
             case "87":
                 console.log("selected");
-                x1 = 388;
+                x1 = 454;
                 y1 = 23;
                 f = "first";
                 img = document.getElementById("first");
                 break;
             case "88":
                 console.log("selected");
-                x1 = 505;
+                x1 = 480;
                 y1 = 23;
                 f = "first";
                 img = document.getElementById("first");
                 break;
             case "89":
                 console.log("selected");
-                x1 = 548;
+                x1 = 510;
                 y1 = 23;
                 f = "first";
                 img = document.getElementById("first");
                 break;
             case "90":
                 console.log("selected");
-                x1 = 582;
+                x1 = 534;
                 y1 = 23;
                 f = "first";
                 img = document.getElementById("first");
                 break;
             case "91":
                 console.log("selected");
-                x1 = 615;
+                x1 = 562;
                 y1 = 23;
                 f = "first";
                 img = document.getElementById("first");
                 break;
             case "92":
                 console.log("selected");
-                x1 = 648;
+                x1 = 588;
                 y1 = 23;
                 f = "first";
                 img = document.getElementById("first");
                 break;
             case "93":
                 console.log("selected");
-                x1 = 682;
-                y1 = 85;
+                x1 = 615;
+                y1 = 23;
                 f = "first";
                 img = document.getElementById("first");
                 break;
             case "94":
                 console.log("selected");
-                x1 = 714;
+                x1 = 642;
                 y1 = 23;
                 f = "first";
                 img = document.getElementById("first");
                 break;
             case "95":
                 console.log("selected");
-                x1 = 262;
+                x1 = 682;
                 y1 = 85;
                 f = "first";
                 img = document.getElementById("first");
