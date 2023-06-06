@@ -179,36 +179,36 @@ window.onload = function () {
                 break;
             case "25":
                 console.log("selected");
-                x1 = 188;
-                y1 = 23;
+                x1 = 526;
+                y1 = 73;
                 f = "first";
                 img = document.getElementById("first");
                 break;
             case "26":
                 console.log("selected");
-                x1 = 188;
-                y1 = 23;
+                x1 = 556;
+                y1 = 73;
                 f = "first";
                 img = document.getElementById("first");
                 break;
             case "27":
                 console.log("selected");
-                x1 = 188;
-                y1 = 23;
+                x1 = 587;
+                y1 = 73;
                 f = "first";
                 img = document.getElementById("first");
                 break;
             case "28":
                 console.log("selected");
-                x1 = 188;
-                y1 = 23;
+                x1 = 618;
+                y1 = 73;
                 f = "first";
                 img = document.getElementById("first");
                 break;
             case "29":
                 console.log("selected");
-                x1 = 188;
-                y1 = 23;
+                x1 = 648;
+                y1 = 73;
                 f = "first";
                 img = document.getElementById("first");
                 break;
