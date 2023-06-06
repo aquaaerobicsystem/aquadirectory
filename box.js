@@ -25,42 +25,42 @@ window.onload = function () {
                 break;
             case "3":
                 console.log("selected");
-                x1 = 286;
+                x1 = 280;
                 y1 = 23;
                 f = "first";
                 img = document.getElementById("first");
                 break;
             case "4":
                 console.log("selected");
-                x1 = 335;
+                x1 = 313;
                 y1 = 23;
                 f = "first";
                 img = document.getElementById("first");
                 break;
             case "5":
                 console.log("selected");
-                x1 = 384;
+                x1 = 346;
                 y1 = 23;
                 f = "first";
                 img = document.getElementById("first");
                 break;
             case "6":
                 console.log("selected");
-                x1 = 433;
+                x1 = 388;
                 y1 = 23;
                 f = "first";
                 img = document.getElementById("first");
                 break;
             case "6":
                 console.log("selected");
-                x1 = 188;
+                x1 = 505;
                 y1 = 23;
                 f = "first";
                 img = document.getElementById("first");
                 break;
             case "8":
                 console.log("selected");
-                x1 = 188;
+                x1 = 548;
                 y1 = 23;
                 f = "first";
                 img = document.getElementById("first");
