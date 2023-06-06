@@ -438,50 +438,50 @@ window.onload = function () {
                 break;
             case "62":
                 console.log("selected");
-                x1 = 399;
-                y1 = 120;
+                x1 = 498;
+                y1 = 357;
                 f = "first";
                 img = document.getElementById("first");
                 break;
             case "63":
                 console.log("selected");
-                x1 = 427;
-                y1 = 120;
+                x1 = 525;
+                y1 = 357;
                 f = "first";
                 img = document.getElementById("first");
                 break;
             case "64":
                 console.log("selected");
-                x1 = 455;
-                y1 = 120;
+                x1 = 552;
+                y1 = 357;
                 f = "first";
                 img = document.getElementById("first");
                 break;
             case "65":
                 console.log("selected");
-                x1 = 526;
-                y1 = 73;
+                x1 = 580;
+                y1 = 357;
                 f = "first";
                 img = document.getElementById("first");
                 break;
             case "66":
                 console.log("selected");
-                x1 = 556;
-                y1 = 73;
+                x1 = 606;
+                y1 = 357;
                 f = "first";
                 img = document.getElementById("first");
                 break;
             case "67":
                 console.log("selected");
-                x1 = 587;
-                y1 = 73;
+                x1 = 635;
+                y1 = 357;
                 f = "first";
                 img = document.getElementById("first");
                 break;
             case "68":
                 console.log("selected");
-                x1 = 618;
-                y1 = 73;
+                x1 = 663;
+                y1 = 357;
                 f = "first";
                 img = document.getElementById("first");
                 break;
