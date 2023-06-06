@@ -382,36 +382,36 @@ window.onload = function () {
                 break;
             case "54":
                 console.log("selected");
-                x1 = 262;
-                y1 = 85;
+                x1 = 488;
+                y1 = 285;
                 f = "first";
                 img = document.getElementById("first");
                 break;
             case "55":
                 console.log("selected");
-                x1 = 290;
-                y1 = 85;
+                x1 = 516;
+                y1 = 285;
                 f = "first";
                 img = document.getElementById("first");
                 break;
             case "56":
                 console.log("selected");
-                x1 = 317;
-                y1 = 85;
+                x1 = 543;
+                y1 = 285;
                 f = "first";
                 img = document.getElementById("first");
                 break;
             case "57":
                 console.log("selected");
-                x1 = 345;
-                y1 = 85;
+                x1 = 572;
+                y1 = 285;
                 f = "first";
                 img = document.getElementById("first");
                 break;
             case "58":
                 console.log("selected");
-                x1 = 372;
-                y1 = 85;
+                x1 = 597;
+                y1 = 285;
                 f = "first";
                 img = document.getElementById("first");
                 break;
