@@ -89,7 +89,7 @@ window.onload = function () {
             case "12":
                 console.log("selected");
                 x1 = 682;
-                y1 = 85;
+                y1 = 23;
                 f = "first";
                 img = document.getElementById("first");
                 break;
