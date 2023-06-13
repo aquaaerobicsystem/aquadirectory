@@ -921,43 +921,43 @@ window.onload = function () {
                 break;
             case "131":
                 console.log("selected");
-                 x1 = 720;
-                y1 = 145;
+                 x1 = 428;
+                y1 = 185;
                  f = "second";
                 img = document.getElementById("second");
                 break;
             case "132":
                 console.log("selected");
-                x1 = 720;
-                y1 = 145;
+                x1 = 495;
+                y1 = 185;
                  f = "second";
                 img = document.getElementById("second");
                 break;
             case "133":
                 console.log("selected");
-                x1 = 720;
-                y1 = 145;
+                x1 = 523;
+                y1 = 185;
                  f = "second";
                 img = document.getElementById("second");
                 break;
             case "134":
                 console.log("selected");
-               x1 = 720;
-                y1 = 145;
+               x1 = 553;
+                y1 = 185;
                  f = "second";
                 img = document.getElementById("second");
                 break;
             case "135":
                 console.log("selected");
-                x1 = 720;
-                y1 = 145;
+                x1 = 583;
+                y1 = 185;
                  f = "second";
                 img = document.getElementById("second");
                 break;
             case "136":
                 console.log("selected");
-                x1 = 720;
-                y1 = 145;
+                x1 = 610;
+                y1 = 185;
                  f = "second";
                 img = document.getElementById("second");
                 break;
