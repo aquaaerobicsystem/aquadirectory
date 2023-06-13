@@ -586,23 +586,23 @@ window.onload = function () {
             case "83":
                 console.log("selected");
                 x1 = 265;
-                y1 = 23;
-                f = "first";
-                img = document.getElementById("first");
+                y1 = 25;
+                f = "second";
+                img = document.getElementById("second");
                 break;
             case "84":
                 console.log("selected");
-                x1 = 297;
-                y1 = 23;
-                f = "first";
-                img = document.getElementById("first");
+                 x1 = 297;
+                y1 = 25;
+                f = "second";
+                img = document.getElementById("second");
                 break;
             case "85":
                 console.log("selected");
-                x1 = 395;
-                y1 = 23;
-                f = "first";
-                img = document.getElementById("first");
+                x1 = 297;
+                y1 = 25;
+                f = "second";
+                img = document.getElementById("second");
                 break;
             case "86":
                 console.log("selected");
