@@ -858,66 +858,66 @@ window.onload = function () {
                 break;
             case "122":
                 console.log("selected");
-                x1 = 718;
-                y1 = 87;
-                f = "first";
-                img = document.getElementById("first");
+               x1 = 429;
+                y1 = 151;
+                 f = "second";
+                img = document.getElementById("second");
                 break;
             case "123":
                 console.log("selected");
-                x1 = 747;
-                y1 = 87;
-                f = "first";
-                img = document.getElementById("first");
+               x1 = 496;
+                y1 = 151;
+                 f = "second";
+                img = document.getElementById("second");
                 break;
             case "124":
                 console.log("selected");
-                x1 = 718;
-                y1 = 145;
-                f = "first";
-                img = document.getElementById("first");
+            x1 = 528;
+                y1 = 151;
+                 f = "second";
+                img = document.getElementById("second");
                 break;
             case "125":
                 console.log("selected");
-                x1 = 747;
-                y1 = 145;
-                f = "first";
-                img = document.getElementById("first");
+               x1 = 558;
+                y1 = 151;
+                 f = "second";
+                img = document.getElementById("second");
                 break;
             case "126":
                 console.log("selected");
-                x1 = 446;
-                y1 = 185;
-                f = "first";
-                img = document.getElementById("first");
+              x1 = 588;
+                y1 = 151;
+                 f = "second";
+                img = document.getElementById("second");
                 break;
             case "127":
                 console.log("selected");
-                x1 = 446;
-                y1 = 224;
-                f = "first";
-                img = document.getElementById("first");
+                x1 = 620;
+                y1 = 151;
+                 f = "second";
+                img = document.getElementById("second");
                 break;
             case "128":
                 console.log("selected");
-                x1 = 446;
-                y1 = 257;
-                f = "first";
-                img = document.getElementById("first");
+                x1 = 720;
+                y1 = 89;
+                f = "second";
+                img = document.getElementById("second");
                 break;
             case "129":
                 console.log("selected");
-                x1 = 446;
-                y1 = 287;
-                f = "first";
-                img = document.getElementById("first");
+                x1 = 720;
+                y1 = 117;
+                 f = "second";
+                img = document.getElementById("second");
                 break;
             case "130":
                 console.log("selected");
-                x1 = 488;
-                y1 = 254;
-                f = "first";
-                img = document.getElementById("first");
+                x1 = 720;
+                y1 = 145;
+                 f = "second";
+                img = document.getElementById("second");
                 break;
             case "131":
                 console.log("selected");
