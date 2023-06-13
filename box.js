@@ -1062,28 +1062,28 @@ window.onload = function () {
             case "151":
                 console.log("selected");
                 x1 = 428;
-                y1 = 322;
+                y1 = 333;
                 f = "second";
                 img = document.getElementById("second");
                 break;
             case "152":
                 console.log("selected");
                 x1 = 483;
-                y1 = 322;
+                y1 = 333;
                 f = "second";
                 img = document.getElementById("second");
                 break;
             case "153":
                 console.log("selected");
                 x1 = 510;
-                y1 = 322;
+                y1 = 333;
                 f = "second";
                 img = document.getElementById("second");
                 break;
             case "154":
                 console.log("selected");
                 x1 = 540;
-                y1 = 322;
+                y1 = 333;
                 f = "second";
                 img = document.getElementById("second");
                 break;
