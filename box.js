@@ -816,42 +816,42 @@ window.onload = function () {
                 break;
             case "116":
                 console.log("selected");
-                x1 = 441;
+                x1 = 510;
                 y1 = 103;
                  f = "second";
                 img = document.getElementById("second");
                 break;
             case "117":
                 console.log("selected");
-               x1 = 441;
+               x1 = 540;
                 y1 = 103;
                  f = "second";
                 img = document.getElementById("second");
                 break;
             case "118":
                 console.log("selected");
-               x1 = 441;
+               x1 = 569;
                 y1 = 103;
                  f = "second";
                 img = document.getElementById("second");
                 break;
             case "119":
                 console.log("selected");
-              x1 = 441;
+              x1 = 599;
                 y1 = 103;
                  f = "second";
                 img = document.getElementById("second");
                 break;
             case "120":
                 console.log("selected");
-              x1 = 441;
+              x1 = 629;
                 y1 = 103;
                  f = "second";
                 img = document.getElementById("second");
                 break;
             case "121":
                 console.log("selected");
-              x1 = 441;
+              x1 = 659;
                 y1 = 103;
                  f = "second";
                 img = document.getElementById("second");
