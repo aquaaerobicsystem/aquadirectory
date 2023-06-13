@@ -774,87 +774,87 @@ window.onload = function () {
                 break;
             case "110":
                 console.log("selected");
-                x1 = 648;
-                y1 = 73;
-                f = "first";
-                img = document.getElementById("first");
+                x1 = 510;
+                y1 = 76;
+                f = "second";
+                img = document.getElementById("second");
                 break;
             case "111":
                 console.log("selected");
-                x1 = 526;
-                y1 = 104;
-                f = "first";
-                img = document.getElementById("first");
+               x1 = 540;
+                y1 = 76;
+                f = "second";
+                img = document.getElementById("second");
                 break;
             case "112":
                 console.log("selected");
-                x1 = 556;
-                y1 = 104;
-                f = "first";
-                img = document.getElementById("first");
+              x1 = 569;
+                y1 = 76;
+                f = "second";
+                img = document.getElementById("second");
                 break;
             case "113":
                 console.log("selected");
-                x1 = 587;
-                y1 = 104;
-                f = "first";
-                img = document.getElementById("first");
+              x1 = 599;
+                y1 = 76;
+                f = "second";
+                img = document.getElementById("second");
                 break;
             case "114":
                 console.log("selected");
-                x1 = 618;
-                y1 = 104;
-                f = "first";
-                img = document.getElementById("first");
+               x1 = 629;
+                y1 = 76;
+                f = "second";
+                img = document.getElementById("second");
                 break;
             case "115":
                 console.log("selected");
-                x1 = 648;
-                y1 = 104;
-                f = "first";
-                img = document.getElementById("first");
+                x1 = 659;
+                y1 = 76;
+                f = "second";
+                img = document.getElementById("second");
                 break;
             case "116":
                 console.log("selected");
-                x1 = 515;
-                y1 = 146;
-                f = "first";
-                img = document.getElementById("first");
+                x1 = 441;
+                y1 = 103;
+                 f = "second";
+                img = document.getElementById("second");
                 break;
             case "117":
                 console.log("selected");
-                x1 = 550;
-                y1 = 146;
-                f = "first";
-                img = document.getElementById("first");
+               x1 = 441;
+                y1 = 103;
+                 f = "second";
+                img = document.getElementById("second");
                 break;
             case "118":
                 console.log("selected");
-                x1 = 580;
-                y1 = 146;
-                f = "first";
-                img = document.getElementById("first");
+               x1 = 441;
+                y1 = 103;
+                 f = "second";
+                img = document.getElementById("second");
                 break;
             case "119":
                 console.log("selected");
-                x1 = 615;
-                y1 = 146;
-                f = "first";
-                img = document.getElementById("first");
+              x1 = 441;
+                y1 = 103;
+                 f = "second";
+                img = document.getElementById("second");
                 break;
             case "120":
                 console.log("selected");
-                x1 = 646;
-                y1 = 146;
-                f = "first";
-                img = document.getElementById("first");
+              x1 = 441;
+                y1 = 103;
+                 f = "second";
+                img = document.getElementById("second");
                 break;
             case "121":
                 console.log("selected");
-                x1 = 646;
-                y1 = 146;
-                f = "first";
-                img = document.getElementById("first");
+              x1 = 441;
+                y1 = 103;
+                 f = "second";
+                img = document.getElementById("second");
                 break;
             case "122":
                 console.log("selected");
