@@ -579,9 +579,9 @@ window.onload = function () {
              case "82":
                 console.log("selected");
                 x1 = 220;
-                y1 = 23;
-                f = "first";
-                img = document.getElementById("first");
+                y1 = 25;
+                f = "second";
+                img = document.getElementById("second");
                 break;
             case "83":
                 console.log("selected");
