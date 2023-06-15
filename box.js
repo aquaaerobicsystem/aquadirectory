@@ -1143,6 +1143,13 @@ window.onload = function () {
                 f = "first";
                 img = document.getElementById("second");
                 break;
+             case "lobby":
+                console.log("selected");
+                 x1 = 155;
+                y1 = 118;
+                f = "first";
+                img = document.getElementById("second");
+                break;
             default:
                 document.write("<center>Error fetching cubicle!</center>");
         }
