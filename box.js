@@ -1157,6 +1157,13 @@ window.onload = function () {
                 f = "first";
                 img = document.getElementById("second");
                 break;
+               case "fieldservice":
+                console.log("selected");
+                 x1 = 428;
+                y1 = 482;
+                f = "second";
+                img = document.getElementById("second");
+                break;
             default:
                 document.write("<center>Error fetching cubicle!</center>");
         }
