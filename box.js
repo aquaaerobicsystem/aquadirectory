@@ -1150,6 +1150,13 @@ window.onload = function () {
                 f = "first";
                 img = document.getElementById("second");
                 break;
+              case "ceo":
+                console.log("selected");
+                 x1 = 124;
+                y1 = 24;
+                f = "first";
+                img = document.getElementById("second");
+                break;
             default:
                 document.write("<center>Error fetching cubicle!</center>");
         }
