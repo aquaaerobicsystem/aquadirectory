@@ -1150,6 +1150,13 @@ window.onload = function () {
                 f = "first";
                 img = document.getElementById("second");
                 break;
+            case "lobbydesk":
+                console.log("selected");
+                x1 = 185;
+                y1 = 118;
+                f = "first";
+                img = document.getElementById("second");
+                break;
               case "ceo":
                 console.log("selected");
                  x1 = 124;
