@@ -1164,6 +1164,13 @@ window.onload = function () {
                 f = "second";
                 img = document.getElementById("second");
                 break;
+            case "newlayout1":
+                console.log("selected");
+                x1 = 446;
+                y1 = 224;
+                f = "newlayout1";
+                img = document.getElementById("first");
+                break;
             default:
                 document.write("<center>Error fetching cubicle!</center>");
         }
@@ -1186,8 +1193,19 @@ window.onload = function () {
     grd.addColorStop(1, "blue");
 
     // Fill with gradient
-    ctx.fillStyle = grd;
-    ctx.fillRect(x1, y1, 25, 25);
+    if (f === "newlayout1") {
+        ctx.fillStyle = grd;
+        ctx.fillRect(x1, y1, 25, 100);
+    }
+    if (f === "first") {
+        ctx.fillStyle = grd;
+        ctx.fillRect(x1, y1, 25, 25);
+    }
+    if (f === "second") {
+        ctx.fillStyle = grd;
+        ctx.fillRect(x1, y1, 25, 25);
+    }
+
 
 
 };
