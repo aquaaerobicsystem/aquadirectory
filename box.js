@@ -1195,7 +1195,9 @@ window.onload = function () {
     if (f === "second") {
         img = document.getElementById("second");
     }
-    //create canvaas
+
+    try {
+   //create canvaas
     console.log(img);
     var canvas = document.getElementById("myCanvas");
     var ctx = canvas.getContext("2d");
@@ -1219,6 +1221,11 @@ window.onload = function () {
         ctx.fillStyle = grd;
         ctx.fillRect(x1, y1, 25, 25);
     }
+}
+catch(err) {
+  //document.getElementById("demo").innerHTML = err.message;
+}
+   
 
 
 
