@@ -1136,6 +1136,13 @@ window.onload = function () {
                 f = "second";
                 img = document.getElementById("second");
                 break;
+            case "162":
+                console.log("selected");
+                 x1 = 371;
+                y1 = 151;
+                f = "second";
+                img = document.getElementById("second");
+                break;
              case "shop":
                 console.log("selected");
                  x1 = 444;
