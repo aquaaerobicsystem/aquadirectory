@@ -1186,7 +1186,7 @@ window.onload = function () {
                 img = document.getElementById("first");
                 break;
             default:
-                document.write("<center>Error fetching cubicle!</center>");
+                document.write("<center>Error fetching cubicle! Please contact IT!</center>");
         }
     }
     if (f === "first") {
