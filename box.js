@@ -1164,14 +1164,14 @@ window.onload = function () {
                 f = "first";
                 img = document.getElementById("second");
                 break;
-              case "ceo":
+            case "ceo":
                 console.log("selected");
                  x1 = 124;
                 y1 = 24;
                 f = "first";
                 img = document.getElementById("second");
                 break;
-               case "fieldservice":
+            case "fieldservice":
                 console.log("selected");
                  x1 = 428;
                 y1 = 482;
@@ -1217,9 +1217,16 @@ window.onload = function () {
         ctx.fillStyle = grd;
         ctx.fillRect(x1, y1, 25, 25);
     }
+
     if (f === "second") {
         ctx.fillStyle = grd;
         ctx.fillRect(x1, y1, 25, 25);
+    }
+      if (cubicle === "fieldservice") {
+        ctx.fillStyle = grd;
+        ctx.fillRect(x1, y1, 25, 100);
+        ctx.font = "12px Arial";
+        ctx.fillText("Visiting Sites",18,17);
     }
 }
 catch(err) {
