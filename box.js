@@ -1229,6 +1229,13 @@ window.onload = function () {
         ctx.font = "12px Arial";
         ctx.fillText("Field Services (Visiting Sites)",x1 + 18, y1 + 17);
     }
+ if (cubicle === "shop") {
+        ctx.fillStyle = grd;
+        ctx.fillRect(x1, y1, 200, 25);
+        ctx.fillStyle = "#ffffff"; //<======= here
+        ctx.font = "12px Arial";
+        ctx.fillText("Shop Area (Manufacturing)",x1 + 18, y1 + 17);
+  }
 }
 catch(err) {
   //document.getElementById("demo").innerHTML = err.message;
