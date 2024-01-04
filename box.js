@@ -1227,7 +1227,7 @@ window.onload = function () {
         ctx.fillRect(x1, y1, 100, 25);
         ctx.fillStyle = "#ffffff"; //<======= here
         ctx.font = "12px Arial";
-        ctx.fillText("Visiting Sites",x1 + 18, y1 + 17);
+        ctx.fillText("Field Services (offsite)",x1 + 18, y1 + 17);
     }
 }
 catch(err) {
