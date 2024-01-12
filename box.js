@@ -429,6 +429,13 @@ window.onload = function () {
                 f = "first";
                 img = document.getElementById("first");
                 break;
+            case "60a":
+                console.log("selected");
+                x1 = 445;
+                y1 = 400;
+                f = "first";
+                img = document.getElementById("first");
+                break;
             case "61":
                 console.log("selected");
                 x1 = 455;
