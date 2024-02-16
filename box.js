@@ -1155,28 +1155,28 @@ window.onload = function () {
                  x1 = 444;
                 y1 = 488;
                 f = "first";
-                img = document.getElementById("second");
+                img = document.getElementById("first");
                 break;
              case "lobby":
                 console.log("selected");
                  x1 = 155;
                 y1 = 118;
                 f = "first";
-                img = document.getElementById("second");
+                img = document.getElementById("first");
                 break;
             case "lobbydesk":
                 console.log("selected");
                 x1 = 185;
                 y1 = 118;
                 f = "first";
-                img = document.getElementById("second");
+                img = document.getElementById("first");
                 break;
             case "ceo":
                 console.log("selected");
                  x1 = 124;
                 y1 = 24;
                 f = "first";
-                img = document.getElementById("second");
+                img = document.getElementById("first");
                 break;
             case "fieldservice":
                 console.log("selected");
@@ -1190,6 +1190,13 @@ window.onload = function () {
                 x1 = 446;
                 y1 = 224;
                 f = "newlayout1";
+                img = document.getElementById("first");
+                break;
+            case "remote":
+                console.log("selected");
+                x1 = 444;
+                y1 = 488;
+                f = "first";
                 img = document.getElementById("first");
                 break;
             default:
