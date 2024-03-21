@@ -1238,10 +1238,10 @@ window.onload = function () {
     }
       if (cubicle === "fieldservice") {
         ctx.fillStyle = grd;
-        ctx.fillRect(x1, y1, 200, 25);
+        ctx.fillRect(x1, y1, 215, 25);
         ctx.fillStyle = "#ffffff"; //<======= here
         ctx.font = "12px Arial";
-        ctx.fillText("Field Services (Visiting Sites)",x1 + 18, y1 + 17);
+        ctx.fillText("Field Services (No Cubicle: Visiting Sites)",x1 + 18, y1 + 17);
     }
  if (cubicle === "shop") {
         ctx.fillStyle = grd;
