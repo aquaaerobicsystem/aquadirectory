@@ -1238,7 +1238,7 @@ window.onload = function () {
     }
       if (cubicle === "fieldservice") {
         ctx.fillStyle = grd;
-        ctx.fillRect(x1, y1, 220, 25);
+        ctx.fillRect(x1, y1, 225, 25);
         ctx.fillStyle = "#ffffff"; //<======= here
         ctx.font = "12px Arial";
         ctx.fillText("Field Services (No Cubicle: Visiting Sites)",x1 + 18, y1 + 17);
