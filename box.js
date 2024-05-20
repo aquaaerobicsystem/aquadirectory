@@ -1157,6 +1157,13 @@ window.onload = function () {
                 f = "first";
                 img = document.getElementById("first");
                 break;
+            case "newhire":
+                console.log("selected");
+                 x1 = 444;
+                y1 = 488;
+                f = "first";
+                img = document.getElementById("first");
+                break;
              case "lobby":
                 console.log("selected");
                  x1 = 155;
