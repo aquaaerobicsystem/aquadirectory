@@ -1227,6 +1227,27 @@ window.onload = function () {
                 f = "second";
                 img = document.getElementById("second");
                 break;
+              case "174":
+                console.log("selected");
+                x1 = 468;
+                y1 = 76;
+                f = "second";
+                img = document.getElementById("second");
+                break;
+            case "175":
+                console.log("selected");
+                x1 = 468;
+                y1 = 104;
+                f = "second";
+                img = document.getElementById("second");
+                break;
+            case "176":
+                console.log("selected");
+                x1 = 673;
+                y1 = 148;
+                f = "second";
+                img = document.getElementById("second");
+                break;
              case "shop":
                 console.log("selected");
                  x1 = 444;
