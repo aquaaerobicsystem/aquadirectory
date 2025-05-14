@@ -1283,6 +1283,13 @@ window.onload = function () {
                 f = "first";
                 img = document.getElementById("first");
                 break;
+             case "ceoadmin":
+                console.log("selected");
+                 x1 = 175;
+                y1 = 80;
+                f = "first";
+                img = document.getElementById("first");
+                break;
             case "fieldservice":
                 console.log("selected");
                  x1 = 428;
