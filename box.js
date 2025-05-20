@@ -1360,7 +1360,7 @@ window.onload = function () {
         ctx.fillRect(x1, y1, 250, 25);
         ctx.fillStyle = "#ffffff"; //<======= here
         ctx.font = "12px Arial";
-        ctx.fillText("Location Coming Soon!",x1 + 18, y1 + 17);
+        ctx.fillText("Location Unknown (Coming Soon!)",x1 + 18, y1 + 17);
     }
  if (cubicle === "shop") {
         ctx.fillStyle = grd;
