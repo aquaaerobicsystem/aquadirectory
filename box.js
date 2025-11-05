@@ -1381,7 +1381,16 @@ catch(err) {
   //document.getElementById("demo").innerHTML = err.message;
 }
    
-
+// --- NEW: Hide loader and show canvas ---
+// This runs after the window (and images) are loaded and the canvas is drawn
+try {
+    document.getElementById("loader").style.display = "none";
+    document.getElementById("myCanvas").style.display = "block";
+} catch (e) {
+    console.error("Error swapping loader and canvas:", e);
+}
+// --- END NEW ---
 
 
 };
+
