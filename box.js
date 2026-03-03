@@ -2001,11 +2001,17 @@ case "400":
     if (f === "newfirst") {
         ctx.fillStyle = grd;
         ctx.fillRect(x1, y1, 25, 25);
+                   ctx.fillStyle = "#ffffff"; //<======= here
+        ctx.font = "12px Arial";
+        ctx.fillText("New Addition: First Floor",x1 + 18, y1 + 17);
     }
 
     if (f === "newsecond") {
         ctx.fillStyle = grd;
         ctx.fillRect(x1, y1, 25, 25);
+           ctx.fillStyle = "#ffffff"; //<======= here
+        ctx.font = "12px Arial";
+        ctx.fillText("New Addition: Second Floor",x1 + 18, y1 + 17);
     }
       if (cubicle === "fieldservice") {
         ctx.fillStyle = grd;
@@ -2052,6 +2058,7 @@ try {
 
 
 };
+
 
 
 
