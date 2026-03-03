@@ -1322,10 +1322,10 @@ window.onload = function () {
         img = document.getElementById("second");
     }
         if (f === "newfirst") {
-        img = document.getElementById("new_first.png");
+        img = document.getElementById("newfirst");
     }
         if (f === "newsecond") {
-        img = document.getElementById("new_second.png");
+        img = document.getElementById("newsecond");
     }
 
     try {
@@ -1408,5 +1408,6 @@ try {
 
 
 };
+
 
 
