@@ -2008,9 +2008,9 @@ case "400":
         // Label on the map marker
    // --- Legend below the image ---
         var legendY = img.height + 30; // Positions legend 30px below the image
-        ctx.fillStyle = "#ffffff";
+        ctx.fillStyle = "#000000"; // Black text for legend
         ctx.font = "12px Arial";
-        ctx.fillText("New Addition: First Floor", 200, legendY);
+        ctx.fillText("New Addition: First Floor", 200, legendY + 10);
 
              ctx.fillStyle = grd;
         ctx.fillRect(20, legendY, 25, 25); // Blue Square
@@ -2029,9 +2029,9 @@ case "400":
         // Label on the map marker
  // --- Legend below the image ---
         var legendY = img.height + 30; // Positions legend 30px below the image
-        ctx.fillStyle = "#ffffff";
+        ctx.fillStyle =  "#000000"; // Black text for legend
         ctx.font = "12px Arial";
-        ctx.fillText("New Addition: Second Floor", 200, legendY);
+        ctx.fillText("New Addition: Second Floor", 200, legendY + 10);
 
         // --- Legend below the image ---
         var legendY = img.height + 30; // Positions legend 30px below the image
@@ -2094,6 +2094,7 @@ try {
 
 
 };
+
 
 
 
