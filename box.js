@@ -1412,91 +1412,91 @@ case "300":
             case "321":
                 console.log("selected");
                 x1 = 123;
-                y1 = 86;
+                y1 = 138;
                 f = "newfirst";
                 img = document.getElementById("newfirst");
                 break;
             case "322":
                 console.log("selected");
                 x1 = 166;
-                y1 = 86;
+                y1 = 138;
                 f = "newfirst";
                 img = document.getElementById("newfirst");
                 break;
             case "323":
                 console.log("selected");
                 x1 = 211;
-                y1 = 86;
+                y1 = 138;
                 f = "newfirst";
                 img = document.getElementById("newfirst");
                 break;
             case "324":
                 console.log("selected");
                 x1 = 256;
-                y1 = 86;
+                y1 = 138;
                 f = "newfirst";
                 img = document.getElementById("newfirst");
                 break;
             case "325":
                 console.log("selected");
                 x1 = 301;
-                y1 = 86;
+                y1 = 138;
                 f = "newfirst";
                 img = document.getElementById("newfirst");
                 break;
             case "326":
                 console.log("selected");
                 x1 = 346;
-                y1 = 86;
+                y1 = 138;
                 f = "newfirst";
                 img = document.getElementById("newfirst");
                 break;
             case "327":
                 console.log("selected");
                 x1 = 391;
-                y1 = 86;
+                y1 = 138;
                 f = "newfirst";
                 img = document.getElementById("newfirst");
                 break;
             case "328":
                 console.log("selected");
                 x1 = 465;
-                y1 = 86;
+                y1 = 138;
                 f = "newfirst";
                 img = document.getElementById("newfirst");
                 break;
             case "329":
                 console.log("selected");
                 x1 = 510;
-                y1 = 86;
+                y1 = 138;
                 f = "newfirst";
                 img = document.getElementById("newfirst");
                 break;
             case "330":
                 console.log("selected");
                 x1 = 555;
-                y1 = 86;
+                y1 = 138;
                 f = "newfirst";
                 img = document.getElementById("newfirst");
                 break;
             case "331":
                 console.log("selected");
                 x1 = 600;
-                y1 = 86;
+                y1 = 138;
                 f = "newfirst";
                 img = document.getElementById("newfirst");
                 break;
             case "332":
                 console.log("selected");
                 x1 = 645;
-                y1 = 86;
+                y1 = 138;
                 f = "newfirst";
                 img = document.getElementById("newfirst");
                 break;
             case "333":
                 console.log("selected");
                 x1 = 690;
-                y1 = 86;
+                y1 = 138;
                 f = "newfirst";
                 img = document.getElementById("newfirst");
                 break;
