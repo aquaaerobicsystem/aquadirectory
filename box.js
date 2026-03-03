@@ -1276,6 +1276,13 @@ case "300":
                 f = "newfirst";
                 img = document.getElementById("newfirst");
                 break;
+            case "303a":
+                console.log("selected");
+                x1 = 304;
+                y1 = 21;
+                f = "newfirst";
+                img = document.getElementById("newfirst");
+                break;
             case "304":
                 console.log("selected");
                 x1 = 578;
@@ -2094,6 +2101,7 @@ try {
 
 
 };
+
 
 
 
