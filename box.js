@@ -1998,21 +1998,57 @@ case "400":
         ctx.fillStyle = grd;
         ctx.fillRect(x1, y1, 25, 25);
     }
+        
+    // --- NEW FIRST FLOOR ---
     if (f === "newfirst") {
-        ctx.fillStyle = grd;
+        // Draw the office marker on the map
+        ctx.fillStyle = grd; 
         ctx.fillRect(x1, y1, 25, 25);
-                   ctx.fillStyle = "#ffffff"; //<======= here
+        
+        // Label on the map marker
+   // --- Legend below the image ---
+        var legendY = img.height + 30; // Positions legend 30px below the image
+        ctx.fillStyle = "#ffffff";
         ctx.font = "12px Arial";
-        ctx.fillText("New Addition: First Floor",x1 + 18, y1 + 17);
+        ctx.fillText("New Addition: First Floor", 200, legendY);
+
+             ctx.fillStyle = grd;
+        ctx.fillRect(20, legendY, 25, 25); // Blue Square
+        
+        ctx.fillStyle = "#000000"; // Black text for legend
+        ctx.font = "bold 14px Arial";
+        ctx.fillText(" = Office", 50, legendY + 18);
     }
 
+    // --- NEW SECOND FLOOR ---
     if (f === "newsecond") {
+        // Draw the office marker on the map
         ctx.fillStyle = grd;
         ctx.fillRect(x1, y1, 25, 25);
-           ctx.fillStyle = "#ffffff"; //<======= here
+        
+        // Label on the map marker
+ // --- Legend below the image ---
+        var legendY = img.height + 30; // Positions legend 30px below the image
+        ctx.fillStyle = "#ffffff";
         ctx.font = "12px Arial";
-        ctx.fillText("New Addition: Second Floor",x1 + 18, y1 + 17);
+        ctx.fillText("New Addition: Second Floor", 200, legendY);
+
+        // --- Legend below the image ---
+        var legendY = img.height + 30; // Positions legend 30px below the image
+        ctx.fillStyle = grd;
+        ctx.fillRect(20, legendY, 25, 25); // Blue Square
+        
+        ctx.fillStyle = "#000000"; // Black text for legend
+        ctx.font = "bold 14px Arial";
+        ctx.fillText(" = Office", 50, legendY + 18);
     }
+
+    // Standard floors (maintaining original 25x25 logic)
+    if (f === "first" || f === "second") { 
+        ctx.fillStyle = grd; 
+        ctx.fillRect(x1, y1, 25, 25); 
+    }
+
       if (cubicle === "fieldservice") {
         ctx.fillStyle = grd;
         ctx.fillRect(x1, y1, 250, 25);
@@ -2058,6 +2094,7 @@ try {
 
 
 };
+
 
 
 
