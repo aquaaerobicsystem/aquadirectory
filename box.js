@@ -1290,6 +1290,13 @@ case "300":
                 f = "newfirst";
                 img = document.getElementById("newfirst");
                 break;
+           case "304a":
+                console.log("selected");
+                x1 = 538;
+                y1 = 21;
+                f = "newfirst";
+                img = document.getElementById("newfirst");
+                break;
             case "305":
                 console.log("selected");
                 x1 = 625;
@@ -1598,6 +1605,13 @@ case "400":
                 f = "newsecond";
                 img = document.getElementById("newsecond");
                 break;
+           case "403":
+                console.log("selected");
+                x1 = 279;
+                y1 = 21;
+                f = "newsecond";
+                img = document.getElementById("newsecond");
+                break
             case "404":
                 console.log("selected");
                 x1 = 578;
@@ -2101,6 +2115,7 @@ try {
 
 
 };
+
 
 
 
