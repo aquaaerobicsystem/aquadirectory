@@ -1605,9 +1605,9 @@ case "400":
                 f = "newsecond";
                 img = document.getElementById("newsecond");
                 break;
-           case "403":
+           case "403a":
                 console.log("selected");
-                x1 = 279;
+                x1 = 390;
                 y1 = 21;
                 f = "newsecond";
                 img = document.getElementById("newsecond");
@@ -2115,6 +2115,7 @@ try {
 
 
 };
+
 
 
 
