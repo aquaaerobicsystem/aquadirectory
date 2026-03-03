@@ -1321,6 +1321,12 @@ window.onload = function () {
     if (f === "second") {
         img = document.getElementById("second");
     }
+        if (f === "newfirst") {
+        img = document.getElementById("new_first.png");
+    }
+        if (f === "newsecond") {
+        img = document.getElementById("new_second.png");
+    }
 
     try {
    //create canvaas
@@ -1345,6 +1351,15 @@ window.onload = function () {
     }
 
     if (f === "second") {
+        ctx.fillStyle = grd;
+        ctx.fillRect(x1, y1, 25, 25);
+    }
+    if (f === "newfirst") {
+        ctx.fillStyle = grd;
+        ctx.fillRect(x1, y1, 25, 25);
+    }
+
+    if (f === "newsecond") {
         ctx.fillStyle = grd;
         ctx.fillRect(x1, y1, 25, 25);
     }
@@ -1393,4 +1408,5 @@ try {
 
 
 };
+
 
