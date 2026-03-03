@@ -2009,8 +2009,8 @@ case "400":
    // --- Legend below the image ---
         var legendY = img.height + 30; // Positions legend 30px below the image
         ctx.fillStyle = "#000000"; // Black text for legend
-        ctx.font = "12px Arial";
-        ctx.fillText("New Addition: First Floor", 200, legendY + 10);
+         ctx.font = "bold 14px Arial";
+        ctx.fillText("New Addition: First Floor", 200, legendY + 18);
 
              ctx.fillStyle = grd;
         ctx.fillRect(20, legendY, 25, 25); // Blue Square
@@ -2030,8 +2030,8 @@ case "400":
  // --- Legend below the image ---
         var legendY = img.height + 30; // Positions legend 30px below the image
         ctx.fillStyle =  "#000000"; // Black text for legend
-        ctx.font = "12px Arial";
-        ctx.fillText("New Addition: Second Floor", 200, legendY + 10);
+        ctx.font = "bold 14px Arial";
+        ctx.fillText("New Addition: Second Floor", 200, legendY + 18);
 
         // --- Legend below the image ---
         var legendY = img.height + 30; // Positions legend 30px below the image
@@ -2094,6 +2094,7 @@ try {
 
 
 };
+
 
 
 
