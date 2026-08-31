@@ -1248,6 +1248,13 @@ window.onload = function () {
                 f = "second";
                 img = document.getElementById("second");
                 break;
+            case "177":
+                console.log("selected");
+                x1 = 649;
+                y1 = 461;
+                f = "second";
+                img = document.getElementById("second");
+                break;
             case "300":
                 console.log("selected");
                 x1 = 88;
